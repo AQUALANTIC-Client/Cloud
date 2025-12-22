@@ -1,0 +1,21 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="512" height="512">
+	<defs>
+		<filter x="-50%" y="-50%" width="200%" height="200%" id="f1"> <feGaussianBlur stdDeviation="0.1"/> </filter>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(140,120,-140,120,30,30)">
+			<stop offset="0" stop-color="#1068a8"/>
+			<stop offset="1" stop-color="#87bdc4"/>
+		</linearGradient>
+		<linearGradient id="g2" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-140,90,-140,-90,170,30)">
+			<stop offset="0" stop-color="#1068a8"/>
+			<stop offset="1" stop-color="#a78bfa"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { opacity: .9;filter: url(#f1);fill: url(#g1) } 
+		.s1 { opacity: .8;filter: url(#f1);fill: url(#g2) } 
+	</style>
+	<path class="s0" d="m100 30l70 50-20 70h-100l-20-70z"/>
+	<g>
+		<path class="s1" d="m100 30l70 50-50 40h-40l-50-40z"/>
+	</g>
+</svg>
